@@ -1,0 +1,18 @@
+README
+
+iOS app using Swift 2 and Xcode 7
+iOS app that allows users to switch betwwen two views. One view is a table that shows all the locations that the user 
+"favorites". The user favorites a location by switching to the other view, which shows a map. This switch to the map 
+is done by pressing the "+" button at the very top right of the screen. Upon reaching the map view, the user can long-press 
+anywhere on the screen to add an annotation (A red pin showing the address of the place). Once this annotation is created, 
+the address of the long-pressed location in real-life will be added to the table view. This creates a list of 
+"memorable places" that the user can revisit that place by simply clicking on that entry in the table. The table always 
+saves the data regardless of whether the user has the app open or not.
+
+
+Uses: NSUserDefaults, geolocation/coreLocation, mapkit, gestureRecognizer (for the long-press gesture)
+
+
+WARNING: I document just about every line of code in this project simply for the purpose of being able 
+to re-read later at some point. I had been learning these concepts while writing the code so I wanted to 
+be able to remember it whenever I opened the project. It may look sloppy...or very green...
